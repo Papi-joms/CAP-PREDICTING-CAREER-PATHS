@@ -1,0 +1,307 @@
+{
+  "model_version": "cpp-rf-v1-9dde8b6b453254c3",
+  "dataset_sha256": "3d92f984271860652a16c57da80e3151e5d255cfef527f2fbe813cd2d090e391",
+  "split": "validation",
+  "synthetic": true,
+  "metrics": {
+    "n_rows": 600,
+    "top1_accuracy": 0.6383333333333333,
+    "top3_accuracy": 0.885,
+    "macro_f1": 0.6113963906914929,
+    "balanced_accuracy": 0.6186124831958165,
+    "per_class": {
+      "Architecture": {
+        "precision": 0.6944444444444444,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.7575757575757576,
+        "support": 30.0
+      },
+      "Biology and Biological Sciences": {
+        "precision": 0.7096774193548387,
+        "recall": 0.6111111111111112,
+        "f1-score": 0.6567164179104478,
+        "support": 36.0
+      },
+      "Civil Engineering": {
+        "precision": 0.5238095238095238,
+        "recall": 0.4074074074074074,
+        "f1-score": 0.4583333333333333,
+        "support": 54.0
+      },
+      "Computer Science": {
+        "precision": 0.7808219178082192,
+        "recall": 0.7307692307692307,
+        "f1-score": 0.7549668874172185,
+        "support": 78.0
+      },
+      "Electrical Engineering": {
+        "precision": 0.38636363636363635,
+        "recall": 0.40476190476190477,
+        "f1-score": 0.3953488372093023,
+        "support": 42.0
+      },
+      "Electronics Engineering": {
+        "precision": 0.5227272727272727,
+        "recall": 0.6388888888888888,
+        "f1-score": 0.575,
+        "support": 36.0
+      },
+      "Environmental Science": {
+        "precision": 0.5769230769230769,
+        "recall": 0.625,
+        "f1-score": 0.6,
+        "support": 24.0
+      },
+      "Information Technology": {
+        "precision": 0.8024691358024691,
+        "recall": 0.7738095238095238,
+        "f1-score": 0.7878787878787878,
+        "support": 84.0
+      },
+      "Mathematics": {
+        "precision": 0.5384615384615384,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.56,
+        "support": 24.0
+      },
+      "Mechanical Engineering": {
+        "precision": 0.4090909090909091,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.4186046511627907,
+        "support": 42.0
+      },
+      "Medicine and Health Sciences": {
+        "precision": 0.5833333333333334,
+        "recall": 0.6363636363636364,
+        "f1-score": 0.6086956521739131,
+        "support": 66.0
+      },
+      "Nursing": {
+        "precision": 0.7777777777777778,
+        "recall": 0.75,
+        "f1-score": 0.7636363636363637,
+        "support": 84.0
+      },
+      "accuracy": 0.6383333333333333,
+      "macro avg": {
+        "precision": 0.6088249988247533,
+        "recall": 0.6186124831958165,
+        "f1-score": 0.6113963906914929,
+        "support": 600.0
+      },
+      "weighted avg": {
+        "precision": 0.6430146475701786,
+        "recall": 0.6383333333333333,
+        "f1-score": 0.6387228554549513,
+        "support": 600.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        25,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        22,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        8,
+        1
+      ],
+      [
+        3,
+        0,
+        22,
+        0,
+        10,
+        3,
+        1,
+        0,
+        0,
+        13,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        57,
+        0,
+        0,
+        0,
+        10,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        1,
+        17,
+        8,
+        1,
+        0,
+        0,
+        8,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        4,
+        0,
+        3,
+        23,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        5,
+        1,
+        1,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        1,
+        6,
+        2,
+        1,
+        2,
+        65,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        2,
+        14,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        5,
+        1,
+        9,
+        6,
+        1,
+        0,
+        1,
+        18,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        42,
+        14
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        16,
+        63
+      ]
+    ],
+    "class_order": [
+      "Architecture",
+      "Biology and Biological Sciences",
+      "Civil Engineering",
+      "Computer Science",
+      "Electrical Engineering",
+      "Electronics Engineering",
+      "Environmental Science",
+      "Information Technology",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Medicine and Health Sciences",
+      "Nursing"
+    ]
+  },
+  "feature_importance": {
+    "gwa": 0.043045827591013545,
+    "riasec_R": 0.10399026763282307,
+    "riasec_I": 0.0686854570327569,
+    "riasec_A": 0.09101227771036463,
+    "riasec_S": 0.0914884437301638,
+    "riasec_E": 0.030474849823866564,
+    "riasec_C": 0.08530502423782128,
+    "general_biology_1": 0.06936426841837533,
+    "general_biology_2": 0.06592682849297844,
+    "chemistry": 0.06111031563790649,
+    "physics": 0.06371371162823972,
+    "pre_calculus": 0.07558355714419943,
+    "basic_calculus": 0.07057426313683321,
+    "statistics_and_probability": 0.062480334311359124,
+    "general_biology_1_missing": 0.002194976528067643,
+    "general_biology_2_missing": 0.002769344355635225,
+    "chemistry_missing": 0.0023452230488592058,
+    "physics_missing": 0.0022795720011993307,
+    "pre_calculus_missing": 0.002459953331823657,
+    "basic_calculus_missing": 0.0028459484975352223,
+    "statistics_and_probability_missing": 0.0023495557081780164
+  }
+}

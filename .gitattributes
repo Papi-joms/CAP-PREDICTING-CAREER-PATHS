@@ -1,0 +1,2 @@
+/data/synthetic_students.csv text eol=lf
+/artifacts/cpp_model.joblib binary

@@ -1,0 +1,65 @@
+VALIDATION
+SYNTHETIC DATA ONLY — not evidence of real-world career suitability.
+Rows: 600
+Top-1 accuracy: 63.83%
+Top-3 accuracy: 88.50%
+Macro F1: 0.6114
+Balanced accuracy: 61.86%
+
+Top-1 counts exact assigned-label matches. Top-3 checks whether the assigned label is among three results.
+Macro F1 gives each career equal weight. Balanced accuracy averages recall across careers.
+Precision asks how often a predicted class is correct; recall asks how many members of that class were found.
+Inspect minority classes (Mathematics and Environmental Science) rather than overall accuracy alone.
+
+Per-class metrics:
+                                 precision    recall  f1-score  support
+Architecture                      0.694444  0.833333  0.757576     30.0
+Biology and Biological Sciences   0.709677  0.611111  0.656716     36.0
+Civil Engineering                 0.523810  0.407407  0.458333     54.0
+Computer Science                  0.780822  0.730769  0.754967     78.0
+Electrical Engineering            0.386364  0.404762  0.395349     42.0
+Electronics Engineering           0.522727  0.638889  0.575000     36.0
+Environmental Science             0.576923  0.625000  0.600000     24.0
+Information Technology            0.802469  0.773810  0.787879     84.0
+Mathematics                       0.538462  0.583333  0.560000     24.0
+Mechanical Engineering            0.409091  0.428571  0.418605     42.0
+Medicine and Health Sciences      0.583333  0.636364  0.608696     66.0
+Nursing                           0.777778  0.750000  0.763636     84.0
+
+Confusion matrix (rows = actual, columns = predicted):
+                                 Architecture  Biology and Biological Sciences  Civil Engineering  Computer Science  Electrical Engineering  Electronics Engineering  Environmental Science  Information Technology  Mathematics  Mechanical Engineering  Medicine and Health Sciences  Nursing
+Architecture                               25                                0                  1                 0                       1                        1                      0                       1            0                       0                             1        0
+Biology and Biological Sciences             1                               22                  0                 0                       0                        0                      4                       0            0                       0                             8        1
+Civil Engineering                           3                                0                 22                 0                      10                        3                      1                       0            0                      13                             2        0
+Computer Science                            1                                0                  2                57                       0                        0                      0                      10            8                       0                             0        0
+Electrical Engineering                      0                                0                  6                 1                      17                        8                      1                       0            0                       8                             0        1
+Electronics Engineering                     1                                0                  4                 0                       3                       23                      2                       1            0                       2                             0        0
+Environmental Science                       1                                5                  1                 1                       0                        0                     15                       0            0                       0                             1        0
+Information Technology                      1                                2                  1                 6                       2                        1                      2                      65            1                       1                             1        1
+Mathematics                                 1                                0                  0                 5                       0                        0                      0                       2           14                       1                             0        1
+Mechanical Engineering                      0                                0                  5                 1                       9                        6                      1                       0            1                      18                             1        0
+Medicine and Health Sciences                2                                1                  0                 2                       1                        1                      0                       1            2                       0                            42       14
+Nursing                                     0                                1                  0                 0                       1                        1                      0                       1            0                       1                            16       63
+
+Forest impurity-based feature importance (descriptive, not causal; may favor continuous features):
+riasec_R                              0.103990
+riasec_S                              0.091488
+riasec_A                              0.091012
+riasec_C                              0.085305
+pre_calculus                          0.075584
+basic_calculus                        0.070574
+general_biology_1                     0.069364
+riasec_I                              0.068685
+general_biology_2                     0.065927
+physics                               0.063714
+statistics_and_probability            0.062480
+chemistry                             0.061110
+gwa                                   0.043046
+riasec_E                              0.030475
+basic_calculus_missing                0.002846
+general_biology_2_missing             0.002769
+pre_calculus_missing                  0.002460
+statistics_and_probability_missing    0.002350
+chemistry_missing                     0.002345
+physics_missing                       0.002280
+general_biology_1_missing             0.002195

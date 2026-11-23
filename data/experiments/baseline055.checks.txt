@@ -1,0 +1,118 @@
+SYNTHETIC, assumption-based data — not real student records.
+
+Total records: 4000
+
+Class counts and actual percentages:
+                                 count  percent
+career                                         
+Civil Engineering                  360      9.0
+Electrical Engineering             280      7.0
+Mechanical Engineering             280      7.0
+Electronics Engineering            240      6.0
+Computer Science                   520     13.0
+Information Technology             560     14.0
+Medicine and Health Sciences       440     11.0
+Biology and Biological Sciences    240      6.0
+Environmental Science              160      4.0
+Mathematics                        160      4.0
+Architecture                       200      5.0
+Nursing                            560     14.0
+
+Mean GWA per career:
+career
+Architecture                       87.309550
+Biology and Biological Sciences    87.432167
+Civil Engineering                  86.910417
+Computer Science                   87.096173
+Electrical Engineering             87.309250
+Electronics Engineering            87.024792
+Environmental Science              86.980063
+Information Technology             86.900589
+Mathematics                        87.359687
+Mechanical Engineering             87.125393
+Medicine and Health Sciences       87.288932
+Nursing                            87.016911
+
+Mean RIASEC scores per career:
+                                  riasec_R   riasec_I   riasec_A   riasec_S   riasec_E   riasec_C
+career                                                                                           
+Architecture                     13.715000  17.740000  19.305000  13.395000  13.140000  13.380000
+Biology and Biological Sciences  17.566667  20.287500  13.158333  13.312500  13.191667  12.858333
+Civil Engineering                19.663889  17.902778  13.144444  13.211111  13.122222  13.402778
+Computer Science                 13.269231  19.934615  13.461538  13.076923  13.071154  17.230769
+Electrical Engineering           19.492857  17.439286  13.160714  12.810714  12.875000  13.467857
+Electronics Engineering          19.700000  17.791667  13.041667  13.304167  12.966667  13.429167
+Environmental Science            17.668750  19.700000  13.268750  13.418750  12.881250  12.937500
+Information Technology           13.121429  17.612500  13.151786  13.260714  12.953571  19.496429
+Mathematics                      13.250000  19.562500  13.143750  13.087500  13.275000  17.493750
+Mechanical Engineering           19.721429  17.753571  13.021429  13.007143  13.342857  13.285714
+Medicine and Health Sciences     13.475000  20.077273  13.225000  17.077273  13.443182  13.352273
+Nursing                          13.333929  17.878571  13.187500  19.451786  13.126786  13.341071
+
+GWA/subject correlations:
+general_biology_1             0.816880
+general_biology_2             0.813543
+chemistry                     0.853995
+physics                       0.825442
+pre_calculus                  0.823192
+basic_calculus                0.829514
+statistics_and_probability    0.847004
+
+Numeric minima and maxima:
+                              min      max
+student_id                   1.00  4000.00
+gwa                         75.37    99.56
+general_biology_1           75.00   100.00
+general_biology_2           75.00   100.00
+chemistry                   75.00   100.00
+physics                     75.00   100.00
+pre_calculus                75.00   100.00
+basic_calculus              75.00   100.00
+statistics_and_probability  75.00   100.00
+R1                           1.00     5.00
+R2                           1.00     5.00
+R3                           1.00     5.00
+R4                           1.00     5.00
+R5                           1.00     5.00
+I1                           1.00     5.00
+I2                           1.00     5.00
+I3                           1.00     5.00
+I4                           1.00     5.00
+I5                           1.00     5.00
+A1                           1.00     5.00
+A2                           1.00     5.00
+A3                           1.00     5.00
+A4                           1.00     5.00
+A5                           1.00     5.00
+S1                           1.00     5.00
+S2                           1.00     5.00
+S3                           1.00     5.00
+S4                           1.00     5.00
+S5                           1.00     5.00
+E1                           1.00     5.00
+E2                           1.00     5.00
+E3                           1.00     5.00
+E4                           1.00     5.00
+E5                           1.00     5.00
+C1                           1.00     5.00
+C2                           1.00     5.00
+C3                           1.00     5.00
+C4                           1.00     5.00
+C5                           1.00     5.00
+riasec_R                     5.00    25.00
+riasec_I                     6.00    25.00
+riasec_A                     5.00    25.00
+riasec_S                     5.00    25.00
+riasec_E                     5.00    25.00
+riasec_C                     5.00    25.00
+
+Missing optional grades:
+general_biology_1             492
+general_biology_2             497
+chemistry                     463
+physics                       447
+pre_calculus                  471
+basic_calculus                487
+statistics_and_probability    444
+
+Atypical profiles: 8.00%

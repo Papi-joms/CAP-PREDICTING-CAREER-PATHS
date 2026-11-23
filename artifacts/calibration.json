@@ -1,0 +1,579 @@
+{
+  "decision_time_utc": "2026-11-22T14:51:01.506689+00:00",
+  "decision": "Select noise 0.15 using validation only; freeze before final-test evaluation.",
+  "candidate_noise_levels": [
+    0.55,
+    0.15
+  ],
+  "validation_results": {
+    "0.55": {
+      "n_rows": 600,
+      "top1_accuracy": 0.435,
+      "top3_accuracy": 0.7833333333333333,
+      "macro_f1": 0.4058953574061747,
+      "balanced_accuracy": 0.40966733883400547,
+      "per_class": {
+        "Architecture": {
+          "precision": 0.5454545454545454,
+          "recall": 0.6,
+          "f1-score": 0.5714285714285714,
+          "support": 30.0
+        },
+        "Biology and Biological Sciences": {
+          "precision": 0.4444444444444444,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.4444444444444444,
+          "support": 36.0
+        },
+        "Civil Engineering": {
+          "precision": 0.3953488372093023,
+          "recall": 0.3148148148148148,
+          "f1-score": 0.35051546391752575,
+          "support": 54.0
+        },
+        "Computer Science": {
+          "precision": 0.53125,
+          "recall": 0.4358974358974359,
+          "f1-score": 0.4788732394366197,
+          "support": 78.0
+        },
+        "Electrical Engineering": {
+          "precision": 0.32558139534883723,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.32941176470588235,
+          "support": 42.0
+        },
+        "Electronics Engineering": {
+          "precision": 0.2564102564102564,
+          "recall": 0.2777777777777778,
+          "f1-score": 0.26666666666666666,
+          "support": 36.0
+        },
+        "Environmental Science": {
+          "precision": 0.21739130434782608,
+          "recall": 0.20833333333333334,
+          "f1-score": 0.2127659574468085,
+          "support": 24.0
+        },
+        "Information Technology": {
+          "precision": 0.5555555555555556,
+          "recall": 0.5952380952380952,
+          "f1-score": 0.5747126436781609,
+          "support": 84.0
+        },
+        "Mathematics": {
+          "precision": 0.39285714285714285,
+          "recall": 0.4583333333333333,
+          "f1-score": 0.4230769230769231,
+          "support": 24.0
+        },
+        "Mechanical Engineering": {
+          "precision": 0.2857142857142857,
+          "recall": 0.2857142857142857,
+          "f1-score": 0.2857142857142857,
+          "support": 42.0
+        },
+        "Medicine and Health Sciences": {
+          "precision": 0.36764705882352944,
+          "recall": 0.3787878787878788,
+          "f1-score": 0.373134328358209,
+          "support": 66.0
+        },
+        "Nursing": {
+          "precision": 0.5384615384615384,
+          "recall": 0.5833333333333334,
+          "f1-score": 0.56,
+          "support": 84.0
+        },
+        "accuracy": 0.435,
+        "macro avg": {
+          "precision": 0.4046763637189386,
+          "recall": 0.40966733883400547,
+          "f1-score": 0.4058953574061747,
+          "support": 600.0
+        },
+        "weighted avg": {
+          "precision": 0.4347721098684453,
+          "recall": 0.435,
+          "f1-score": 0.4334350931021396,
+          "support": 600.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          18,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          3,
+          1,
+          2,
+          0,
+          2
+        ],
+        [
+          1,
+          16,
+          0,
+          0,
+          0,
+          0,
+          6,
+          1,
+          0,
+          0,
+          10,
+          2
+        ],
+        [
+          2,
+          1,
+          17,
+          1,
+          6,
+          8,
+          1,
+          1,
+          0,
+          13,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          4,
+          34,
+          0,
+          1,
+          0,
+          21,
+          11,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          6,
+          1,
+          14,
+          10,
+          1,
+          2,
+          1,
+          5,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          7,
+          1,
+          5,
+          10,
+          3,
+          1,
+          0,
+          7,
+          0,
+          1
+        ],
+        [
+          1,
+          7,
+          1,
+          3,
+          1,
+          0,
+          5,
+          1,
+          0,
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          16,
+          1,
+          2,
+          2,
+          50,
+          2,
+          1,
+          0,
+          6
+        ],
+        [
+          2,
+          0,
+          0,
+          4,
+          0,
+          2,
+          0,
+          3,
+          11,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          6,
+          1,
+          12,
+          4,
+          2,
+          2,
+          1,
+          12,
+          1,
+          0
+        ],
+        [
+          3,
+          4,
+          0,
+          1,
+          0,
+          1,
+          0,
+          4,
+          1,
+          1,
+          25,
+          26
+        ],
+        [
+          1,
+          5,
+          0,
+          1,
+          2,
+          1,
+          3,
+          1,
+          0,
+          0,
+          21,
+          49
+        ]
+      ],
+      "class_order": [
+        "Architecture",
+        "Biology and Biological Sciences",
+        "Civil Engineering",
+        "Computer Science",
+        "Electrical Engineering",
+        "Electronics Engineering",
+        "Environmental Science",
+        "Information Technology",
+        "Mathematics",
+        "Mechanical Engineering",
+        "Medicine and Health Sciences",
+        "Nursing"
+      ]
+    },
+    "0.15": {
+      "n_rows": 600,
+      "top1_accuracy": 0.6383333333333333,
+      "top3_accuracy": 0.885,
+      "macro_f1": 0.6113963906914929,
+      "balanced_accuracy": 0.6186124831958165,
+      "per_class": {
+        "Architecture": {
+          "precision": 0.6944444444444444,
+          "recall": 0.8333333333333334,
+          "f1-score": 0.7575757575757576,
+          "support": 30.0
+        },
+        "Biology and Biological Sciences": {
+          "precision": 0.7096774193548387,
+          "recall": 0.6111111111111112,
+          "f1-score": 0.6567164179104478,
+          "support": 36.0
+        },
+        "Civil Engineering": {
+          "precision": 0.5238095238095238,
+          "recall": 0.4074074074074074,
+          "f1-score": 0.4583333333333333,
+          "support": 54.0
+        },
+        "Computer Science": {
+          "precision": 0.7808219178082192,
+          "recall": 0.7307692307692307,
+          "f1-score": 0.7549668874172185,
+          "support": 78.0
+        },
+        "Electrical Engineering": {
+          "precision": 0.38636363636363635,
+          "recall": 0.40476190476190477,
+          "f1-score": 0.3953488372093023,
+          "support": 42.0
+        },
+        "Electronics Engineering": {
+          "precision": 0.5227272727272727,
+          "recall": 0.6388888888888888,
+          "f1-score": 0.575,
+          "support": 36.0
+        },
+        "Environmental Science": {
+          "precision": 0.5769230769230769,
+          "recall": 0.625,
+          "f1-score": 0.6,
+          "support": 24.0
+        },
+        "Information Technology": {
+          "precision": 0.8024691358024691,
+          "recall": 0.7738095238095238,
+          "f1-score": 0.7878787878787878,
+          "support": 84.0
+        },
+        "Mathematics": {
+          "precision": 0.5384615384615384,
+          "recall": 0.5833333333333334,
+          "f1-score": 0.56,
+          "support": 24.0
+        },
+        "Mechanical Engineering": {
+          "precision": 0.4090909090909091,
+          "recall": 0.42857142857142855,
+          "f1-score": 0.4186046511627907,
+          "support": 42.0
+        },
+        "Medicine and Health Sciences": {
+          "precision": 0.5833333333333334,
+          "recall": 0.6363636363636364,
+          "f1-score": 0.6086956521739131,
+          "support": 66.0
+        },
+        "Nursing": {
+          "precision": 0.7777777777777778,
+          "recall": 0.75,
+          "f1-score": 0.7636363636363637,
+          "support": 84.0
+        },
+        "accuracy": 0.6383333333333333,
+        "macro avg": {
+          "precision": 0.6088249988247533,
+          "recall": 0.6186124831958165,
+          "f1-score": 0.6113963906914929,
+          "support": 600.0
+        },
+        "weighted avg": {
+          "precision": 0.6430146475701786,
+          "recall": 0.6383333333333333,
+          "f1-score": 0.6387228554549513,
+          "support": 600.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          25,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          22,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          8,
+          1
+        ],
+        [
+          3,
+          0,
+          22,
+          0,
+          10,
+          3,
+          1,
+          0,
+          0,
+          13,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          57,
+          0,
+          0,
+          0,
+          10,
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          1,
+          17,
+          8,
+          1,
+          0,
+          0,
+          8,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          3,
+          23,
+          2,
+          1,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          1,
+          1,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          6,
+          2,
+          1,
+          2,
+          65,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          2,
+          14,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          5,
+          1,
+          9,
+          6,
+          1,
+          0,
+          1,
+          18,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          2,
+          1,
+          1,
+          0,
+          1,
+          2,
+          0,
+          42,
+          14
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          16,
+          63
+        ]
+      ],
+      "class_order": [
+        "Architecture",
+        "Biology and Biological Sciences",
+        "Civil Engineering",
+        "Computer Science",
+        "Electrical Engineering",
+        "Electronics Engineering",
+        "Environmental Science",
+        "Information Technology",
+        "Mathematics",
+        "Mechanical Engineering",
+        "Medicine and Health Sciences",
+        "Nursing"
+      ]
+    }
+  },
+  "selected_model_version": "cpp-rf-v1-9dde8b6b453254c3",
+  "final_test_evaluated_at_decision": false,
+  "unchanged": [
+    "career shares",
+    "profile strengths",
+    "Holland codes",
+    "8 percent atypical",
+    "12 percent missing grades",
+    "Random Forest parameters",
+    "seed 42",
+    "stratified split"
+  ],
+  "limitation": "Noise was selected to meet synthetic diagnostic difficulty; this does not establish empirical realism or actual career validity."
+}

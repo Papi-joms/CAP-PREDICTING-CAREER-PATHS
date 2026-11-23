@@ -1,0 +1,181 @@
+{
+  "synthetic": true,
+  "generator_version": "1.0",
+  "n_rows": 4000,
+  "seed": 42,
+  "noise_level": 0.55,
+  "stem_gwa_weight": 0.7,
+  "atypical_share": 0.08,
+  "missing_grade_share": 0.12,
+  "profiles": {
+    "Civil Engineering": {
+      "share": 0.09,
+      "primary": "R",
+      "secondary": "I",
+      "strengths": [
+        0,
+        0,
+        0.5,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    "Electrical Engineering": {
+      "share": 0.07,
+      "primary": "R",
+      "secondary": "I",
+      "strengths": [
+        0,
+        0,
+        1,
+        3,
+        2,
+        3,
+        1
+      ]
+    },
+    "Mechanical Engineering": {
+      "share": 0.07,
+      "primary": "R",
+      "secondary": "I",
+      "strengths": [
+        0,
+        0,
+        1.5,
+        3.5,
+        2.5,
+        2,
+        0.5
+      ]
+    },
+    "Electronics Engineering": {
+      "share": 0.06,
+      "primary": "R",
+      "secondary": "I",
+      "strengths": [
+        0,
+        0,
+        0.5,
+        2.5,
+        2,
+        3,
+        2
+      ]
+    },
+    "Computer Science": {
+      "share": 0.13,
+      "primary": "I",
+      "secondary": "C",
+      "strengths": [
+        0,
+        0,
+        0.5,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    "Information Technology": {
+      "share": 0.14,
+      "primary": "C",
+      "secondary": "I",
+      "strengths": [
+        0.5,
+        0.5,
+        0.5,
+        1,
+        1.5,
+        1.5,
+        2
+      ]
+    },
+    "Medicine and Health Sciences": {
+      "share": 0.11,
+      "primary": "I",
+      "secondary": "S",
+      "strengths": [
+        3,
+        3,
+        3,
+        0.5,
+        0,
+        0,
+        1
+      ]
+    },
+    "Biology and Biological Sciences": {
+      "share": 0.06,
+      "primary": "I",
+      "secondary": "R",
+      "strengths": [
+        3.5,
+        3.5,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "Environmental Science": {
+      "share": 0.04,
+      "primary": "I",
+      "secondary": "R",
+      "strengths": [
+        2,
+        2,
+        2,
+        1,
+        0.5,
+        0.5,
+        2
+      ]
+    },
+    "Mathematics": {
+      "share": 0.04,
+      "primary": "I",
+      "secondary": "C",
+      "strengths": [
+        0,
+        0,
+        0,
+        1,
+        4,
+        4,
+        4
+      ]
+    },
+    "Architecture": {
+      "share": 0.05,
+      "primary": "A",
+      "secondary": "I",
+      "strengths": [
+        0.5,
+        0.5,
+        0.5,
+        2,
+        2.5,
+        1.5,
+        1
+      ]
+    },
+    "Nursing": {
+      "share": 0.14,
+      "primary": "S",
+      "secondary": "I",
+      "strengths": [
+        3,
+        3,
+        2,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "sha256": "6c470fa1e2ab141565e1248471592e6fe3d1ac9aa26f9bf72f323fa4f54a0dec"
+}

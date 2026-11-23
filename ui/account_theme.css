@@ -1,0 +1,31 @@
+/* Decoration belongs to the public account page. */
+.st-key-cpp_account_intro {
+    padding: clamp(1.25rem, 5vw, 2.75rem);
+    border-top: 4px solid #D4B571;
+    border-radius: 0.65rem;
+    background:
+        radial-gradient(circle, rgb(254 238 193 / 13%) 1px, transparent 1.5px) 0 0 / 1rem 1rem,
+        linear-gradient(115deg, #102F24 25%, #1E503C 100%);
+}
+
+.st-key-cpp_account_intro h1 {
+    margin: 0;
+    padding: 0;
+    max-width: 20ch;
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 5.5vw, 3.5rem);
+    line-height: 1.1;
+    color: #FFF8E7;
+    text-wrap: balance;
+}
+
+.st-key-cpp_account_intro p {
+    margin-bottom: 0;
+    color: #F4E5BF;
+}
+
+.st-key-cpp_account_forms {
+    padding: clamp(0.5rem, 2vw, 1rem);
+    background-color: #FFFCF4;
+    border-radius: 0.65rem;
+}
